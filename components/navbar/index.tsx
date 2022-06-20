@@ -15,7 +15,6 @@ export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme ;
 
-  console.log(currentTheme)
 
   return (
     <>
