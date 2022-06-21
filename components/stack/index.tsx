@@ -14,9 +14,9 @@ import MongoLogo from '../../assets/mongoLogo.png'
 export default function Stack() {
   return (
     <>
-    <section className="mt-28 items-center flex flex-col justify-center">
+    <section className="mt-72 items-center flex flex-col justify-center">
         <div className="font-poppins text-center">
-            <h1 className="font-bold text-5xl text-rocket-700 mb-10">Minha stack de Tecnologias</h1>
+            <h1 className="font-bold text-5xl text-rocket-700 mb-10 dark:text-white">Minha stack de Tecnologias</h1>
             <span className="font-medium text-3xl text-gray-500"> Tecnologias que eu já trabalhei ou estudei</span>
         </div>
         </section>
@@ -58,6 +58,6 @@ export default function Stack() {
                 <Image src={MongoLogo} />
             </div>
         </div>
-        </>
+    </>
   )
 }

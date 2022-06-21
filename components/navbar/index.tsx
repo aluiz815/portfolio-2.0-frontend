@@ -23,22 +23,22 @@ export default function Navbar() {
           <Image src={Logo} alt="Logo A.J" className="cursor-pointer"/>
         </Link>
         <ul className="flex font-dm-sans text-gray-600">
-          <li className="mr-4 hover:text-pink-900 hover:ease-linear delay-100 transition-all">
+          <li className="mr-4 hover:text-cyan-400  hover:ease-linear delay-100 transition-all">
             <Link href="/about" >Sobre</Link>
           </li>
-          <li className="mr-4 hover:text-pink-900 hover:ease-linear delay-100 transition-all">
+          <li className="mr-4 hover:text-cyan-400  hover:ease-linear delay-100 transition-all">
             <Link href="/tech">Tech Stack</Link>
           </li>
-          <li className="mr-4 hover:text-pink-900 hover:ease-linear delay-100 transition-all">
+          <li className="mr-4 hover:text-cyan-400  hover:ease-linear delay-100 transition-all">
             <Link href="/projects">Projetos</Link>
           </li>
-          <li className="mr-4 hover:text-pink-900 hover:ease-linear delay-100 transition-all">
+          <li className="mr-4 hover:text-cyan-400  hover:ease-linear delay-100 transition-all">
             <Link href="/contact">Contato</Link>
           </li>
           <li className="mr-4">
             <div className="flex items-center mt-1">
-              <Link href="/github"><FaGithub className="hover:text-pink-900 hover:ease-linear delay-100 transition-all cursor-pointer"/></Link>
-              <Link href="/linkedin"><FaLinkedin className="ml-4 cursor-pointer hover:text-pink-900 hover:ease-linear delay-100 transition-all"/></Link>
+              <Link href="/github"><FaGithub className="hover:text-cyan-400  hover:ease-linear delay-100 transition-all cursor-pointer"/></Link>
+              <Link href="/linkedin"><FaLinkedin className="ml-4 cursor-pointer hover:text-cyan-400  hover:ease-linear delay-100 transition-all"/></Link>
               <button className="ml-4 " onClick={()=>setTheme(currentTheme === "light" ? "dark" : "light")}>{currentTheme === "dark" ? (<MdOutlineLightMode/>) : (<MdDarkMode/>)}</button>
             </div>
           </li>
