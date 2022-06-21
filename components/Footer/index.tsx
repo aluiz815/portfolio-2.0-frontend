@@ -4,7 +4,7 @@ import {FaHeart,FaGithub,FaLinkedin} from 'react-icons/fa';
 import Link from "next/link";
 export default function Footer() {
   return (
-    <div className="flex justify-between items-center font-poppins">
+    <div className="flex justify-between items-center font-poppins mt-10">
         <Image src={Logo}/>
         <p className=" flex items-center font-bold ">Desenvolvido com &nbsp; <FaHeart/> &nbsp; por André Luiz </p>
         <div className="flex items-center mt-1">
