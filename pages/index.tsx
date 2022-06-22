@@ -5,7 +5,7 @@ import Projects from "../components/projects"
 import Stack from "../components/stack"
 
 const IndexPage = () => (
-  <div className="dark:bg-black w-screen h-screen py-6 px-16">
+  <div className="dark:bg-black py-6 px-16">
     <Navbar/>
     <Me/>
     <Stack/>

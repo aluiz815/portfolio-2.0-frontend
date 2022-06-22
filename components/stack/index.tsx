@@ -20,7 +20,7 @@ export default function Stack() {
             <span className="font-medium text-3xl text-gray-500"> Tecnologias que eu já trabalhei ou estudei</span>
         </div>
         </section>
-        <div className="grid grid-cols-6 mt-5 items-center justify-between">
+        <div className="md:grid md:grid-cols-6 md:mt-5 flex flex-col items-center justify-between">
             <div className="w-28">
                 <Image src={HtmlLogo} />
             </div>
