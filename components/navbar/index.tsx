@@ -47,7 +47,7 @@ export default function Navbar() {
             <div className="flex items-center mt-1">
               <Link href="/github"><FaGithub className="hover:text-cyan-400  hover:ease-linear delay-100 transition-all cursor-pointer"/></Link>
               <Link href="/linkedin"><FaLinkedin className="ml-4 cursor-pointer hover:text-cyan-400  hover:ease-linear delay-100 transition-all"/></Link>
-              <button className="ml-4" onClick={()=>setTheme(currentTheme === "light" ? "dark" : "light")}>{currentTheme === "dark" ? (<MdOutlineLightMode className="animate-navTransitionDarkMode"/>) : (<MdDarkMode className="animate-navTransitionDarkMode"/>)}</button>
+              <button className="ml-4  p-1 hover:delay-150 rounded-md hover:text-cyan-400 transition-all" onClick={()=>setTheme(currentTheme === "light" ? "dark" : "light")}>{currentTheme === "dark" ? (<MdOutlineLightMode className="animate-navTransitionDarkMode"/>) : (<MdDarkMode className="animate-navTransitionDarkMode"/>)}</button>
             </div>
           </li>
         </ul>

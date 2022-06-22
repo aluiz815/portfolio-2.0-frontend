@@ -5,7 +5,7 @@ import {ImLink} from 'react-icons/im';
 import Link from "next/link";
 export default function CardProject() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mt-10">
     <div className="rounded-md max-w-sm overflow-hidden shadow-lg rounded-t-2xl bg-white  duration-200 hover:scale-105 hover:shadow-xl">
       <div>
         <Image className="rounded-tr-2xl" src={ImageTest} alt=""/>

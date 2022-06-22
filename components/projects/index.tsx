@@ -18,7 +18,7 @@ export default function Projects() {
                 <h1 className="whitespace-nowrap">MOBILE</h1>
             </button>
         </div>
-        <div className="mt-10 grid grid-cols-4 gap-8">
+        <div className=" mt-10 grid  md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-8">
             <CardProject/>
             <CardProject/>
             <CardProject/>
